@@ -1,0 +1,22 @@
+{
+  "name": "compile-i18n",
+  "version": "1.0.0",
+  "main": "extract-handlebars-i18n.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/helper-plugin-utils": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@handlebars/parser": "^2.1.0",
+    "crypto": "^1.0.1",
+    "handlebars": "^4.7.8",
+    "htmlparser2": "^9.1.0",
+    "pinyin": "^4.0.0-alpha.2"
+  }
+}
